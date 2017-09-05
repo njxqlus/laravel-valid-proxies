@@ -22,5 +22,6 @@ If you want to use middleware global - add to to app\Http\Kernel in `$middleware
 
 ## Credits
 
+- [Carsten Jonstrup](https://gist.github.com/cjonstrup)
 - [Mikael Agabalyants](https://github.com/njxqlus/laravel-valid-proxies)
 - [All contributors](https://github.com/njxqlus/laravel-valid-proxies/graphs/contributors)
