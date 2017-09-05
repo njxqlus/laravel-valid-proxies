@@ -8,6 +8,10 @@ Fix SSL in Laravel 5 when server is behind a load balancer or a reverse proxy
 
 Install via composer `composer require njxqlus/laravel-valid-proxies`
 
+For Laravel 5.4 you need to add Service Provider in your config/app.php file:
+
+`njxqlus\LaravelValidProxies\ServiceProvider::class`
+
 ## Usage
 
 ValidProxies Middleware already pushed to `web` middleware group. 
