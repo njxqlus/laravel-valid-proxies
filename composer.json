@@ -1,0 +1,38 @@
+{
+  "name": "njxqlus/laravel-valid-proxies",
+  "description": "Laravel valid proxies",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "laravel55",
+    "valid",
+    "proxies"
+  ],
+  "authors": [
+    {
+      "name": "Mikael Agabalyants",
+      "email": "njxqlus@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "~5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "njxqlus\\LaravelValidProxies\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "njxqlus\\LaravelValidProxies\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
